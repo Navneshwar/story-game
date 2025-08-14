@@ -1,26 +1,35 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <GameIntro v-if="showIntro" @start-game="startGame" />
+    <StoryGame1 v-else />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import GameIntro from './components/GameIntro.vue'
+import StoryGame1 from './components/StoryGame1.vue'
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
+  components: { GameIntro, StoryGame1 },
+  data() {
+    return {
+      showIntro: true
+    }
+  },
+  methods: {
+    startGame() {
+      this.showIntro = false;
+    }
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+/* Global styles can go here */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: white;
 }
 </style>

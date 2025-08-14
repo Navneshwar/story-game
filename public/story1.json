@@ -1,0 +1,228 @@
+{
+  "startnode": "6",
+  "passages": [
+    {
+      "pid": "1",
+      "name": "Click to decide",
+      "text": "Click to decide",
+      "image": "crossroads.jpg",
+      "choices": [
+        {
+          "text": "Search around for exit",
+          "next": "9"
+        },
+        {
+          "text": "Panic and shout",
+          "next": "7"
+        }
+      ]
+    },
+    {
+      "pid": "2",
+      "name": "Collect the fruits and continue searching",
+      "text": "You continued your trek deeper into the forest, the light beginning to fade as evening approached. Just as you were starting to lose hope, you saw a dark opening in a rock face. A cave. You ducked inside, grateful for the potential shelter from the coming night.\n\n\n\n",
+      "image": "forest_cave.jpg",
+      "choices": [
+        {
+          "text": "What do you find on your search for shelter?",
+          "next": "13"
+        }
+      ]
+    },
+    {
+      "pid": "3",
+      "name": "Endure the pain",
+      "text": "After enduring the pain, a strange sense of calm washed over you as the searing sensation in your head began to fade. You rested for a moment, letting the odd feeling pass, before pushing yourself back to your feet. With a new determination, you moved deeper into the forest in search of shelter.\n\n\n",
+      "image": "pain_recovery.jpg",
+      "choices": [
+        {
+          "text": "What do you find on your search for shelter?",
+          "next": "13"
+        }
+      ]
+    },
+    {
+      "pid": "4",
+      "name": "Game over",
+      "text": "Retry from first!!!\n",
+      "image": "game_over.jpg",
+      "choices": [
+        {
+          "text": "Otherworld gate",
+          "next": "6"
+        }
+      ]
+    },
+    {
+      "pid": "5",
+      "name": "Ignore the rock and continue searching",
+      "text": "Ignoring the glowing rock, you continued your trek deeper into the forest. After some time, you came upon a massive, ancient tree that radiated a soft, pleasant warmth. From its branches hung clusters of perfect, oval-shaped fruits.\n\n",
+      "image": "ancient_tree.jpg",
+      "choices": [
+        {
+          "text": "Rest under the tree",
+          "next": "8"
+        },
+        {
+          "text": "Collect the fruits and continue searching",
+          "next": "2"
+        }
+      ]
+    },
+    {
+      "pid": "6",
+      "name": "Otherworld gate",
+      "text": "One day, as you were walking toward your school, a regular, mundane day suddenly shattered. A hole tore open in the air before you, a swirling vortex of darkness, and before you could even register what was happening, it pulled you in.\n",
+      "image": "vortex.jpg",
+      "choices": [
+        {
+          "text": "What happens next?Click to move to scene  2",
+          "next": "14"
+        }
+      ]
+    },
+    {
+      "pid": "7",
+      "name": "Panic and shout",
+      "text": "Panic set in. He frantically shouted for help, his cries echoing through the silent trees, but his pleas went unanswered. As he tried to scramble back to his feet, a small creature scurried out of the undergrowth. It was a cockroach, but one with an iridescent, almost metallic shell, and it moved with an unnatural speed directly toward him.\n",
+      "image": "panic_scene.jpg",
+      "choices": [
+        {
+          "text": "What do you do now that the cockroach is approaching?",
+          "next": "12"
+        }
+      ]
+    },
+    {
+      "pid": "8",
+      "name": "Rest under the tree",
+      "text": "While resting under the tree, you fall into a deep, dreamless sleep. When you finally wake, your head feels clear, but a creeping sense of dread washes over you. You look down and see it—a small cockroach with an iridescent, almost metallic shell, scuttling directly toward you.\n\n---\n\n",
+      "image": "cockroach_approach.jpg",
+      "choices": [
+        {
+          "text": "What do you do now that the cockroach is approaching?",
+          "next": "12"
+        }
+      ]
+    },
+    {
+      "pid": "9",
+      "name": "Search around for exit",
+      "text": "After calming down and getting a sense of your new surroundings, you decide to find an exit. You need to leave this place. Pushing aside the fear, you pick a direction and start walking, hoping to find a way out of the forest\n",
+      "image": "forest_search.jpg",
+      "choices": [
+        {
+          "text": "What  do you encounter first on your search?",
+          "next": "11"
+        }
+      ]
+    },
+    {
+      "pid": "10",
+      "name": "Take the rock and examine it",
+      "text": "You reached out and touched the glowing rock. The moment your fingertips made contact, it burst in a blinding flash of golden light. A concussive shockwave hit you with incredible force, and the world dissolved into a final, searing white.\nYou died!!!\n",
+      "image": "rock_explosion.jpg",
+      "choices": [
+        {
+          "text": "Game over",
+          "next": "4"
+        }
+      ]
+    },
+    {
+      "pid": "11",
+      "name": "What  do you encounter first on your search?",
+      "text": "As you continued your search, your eyes were drawn to a brilliant light radiating from the base of a massive tree. There, half-buried in the roots, was a rock with a pure, golden sheen that glowed with a soft, steady light. It didn't just reflect the light; it seemed to be the source of it.\n\n\n\nWhich path do you choose?",
+      "image": "glowing_rock.jpg",
+      "choices": [
+        {
+          "text": "Take the rock and examine it",
+          "next": "10"
+        },
+        {
+          "text": "Ignore the rock and continue searching",
+          "next": "5"
+        }
+      ]
+    },
+    {
+      "pid": "12",
+      "name": "What do you do now that the cockroach is approaching?",
+      "text": "The cockroach was far too small to inspire any fear, but in the next second, it leaped. With a speed that defied its size, it flew through the air, directly at your face.\n",
+      "image": "cockroach_leap.jpg",
+      "choices": [
+        {
+          "text": "You try to dodge",
+          "next": "16"
+        },
+        {
+          "text": "You try to hit it",
+          "next": "17"
+        }
+      ]
+    },
+    {
+      "pid": "13",
+      "name": "What do you find on your search for shelter?",
+      "text": "",
+      "image": "cave_interior.jpg",
+      "choices": []
+    },
+    {
+      "pid": "14",
+      "name": "What happens next?Click to move to scene  2",
+      "text": "You woke up, finding yourself in a ragged state, deep within a mystical forest. The first thing you noticed was the vibrant, otherworldly glow of the moss that clung to the ancient trees, illuminating twisted roots that snaked across the forest floor like slumbering serpents. The air, thick with the scent of damp earth and unfamiliar blossoms, hummed with a low, magical energy. You lay there, unmoving, your eyes wide with a mixture of fear and awe, taking in the strange new world around you.\n",
+      "image": "mystical_forest.jpg",
+      "choices": [
+        {
+          "text": "Click to decide",
+          "next": "1"
+        }
+      ]
+    },
+    {
+      "pid": "15",
+      "name": "You take it and kill yourself",
+      "text": "You killed yourself!!!!!\n\n",
+      "image": "death_scene.jpg",
+      "choices": [
+        {
+          "text": "Game over",
+          "next": "4"
+        }
+      ]
+    },
+    {
+      "pid": "16",
+      "name": "You try to dodge",
+      "text": "You weren't fast enough. The cockroach's tiny body collided with you, its legs piercing your skin in a fraction of a second. A searing, electric pain shot through you as you felt the creature burrowing deeper, its path a fiery trail moving directly toward your brain. Your head throbbed, and your vision blurred. As you stumbled, you saw a jagged stone lying at your feet.\n\n\n[[You take it and kill yourself]]\n[[Endure the pain]]\n\nWhich do you choose?",
+      "image": "dodge_fail.jpg",
+      "choices": [
+        {
+          "text": "You take it and kill yourself",
+          "next": "15"
+        },
+        {
+          "text": "Endure the pain",
+          "next": "3"
+        }
+      ]
+    },
+    {
+      "pid": "17",
+      "name": "You try to hit it",
+      "text": "You swung your hand, trying to crush the tiny creature. But your attack was completely ineffective. The cockroach seemed to shrug off the blow, and in the next instant, it burrowed deep into your flesh.\n\nA searing, electric pain shot through your body, centering on your head as you felt the creature's path toward your brain. Your vision swam, but you saw a jagged stone lying at your feet.\n\n[[You take it and kill yourself]]\n[[Endure the pain]]\n\nWhich do you choose?",
+      "image": "attack_fail.jpg",
+      "choices": [
+        {
+          "text": "You take it and kill yourself",
+          "next": "15"
+        },
+        {
+          "text": "Endure the pain",
+          "next": "3"
+        }
+      ]
+    }
+  ]
+}
