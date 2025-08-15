@@ -42,7 +42,7 @@ export default {
         {
           number: 2,
           difficulty: "Medium",
-          description: "Survive the creature attacks"
+          description: "Survive in the new society"
         },
         {
           number: 3,
@@ -52,7 +52,7 @@ export default {
         {
           number: 4,
           difficulty: "Very Hard",
-          description: "Escape the cave system"
+          description: "Yet To Be revealed"
         },
         {
           number: 5,
