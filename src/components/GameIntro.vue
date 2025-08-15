@@ -1,7 +1,7 @@
 <template>
   <div class="intro-container" :class="{ 'fade-out': animationComplete }">
     <div class="intro-content">
-      <h1 class="title" ref="title">MYSTERY FOREST ADVENTURE</h1>
+      <h1 class="title" ref="title">Oozh - adventure to </h1>
       
       <div class="level-container">
         <div 
